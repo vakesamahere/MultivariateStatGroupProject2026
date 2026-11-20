@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.pyc
+
+# OS
+.DS_Store
+
+# Data and outputs (the scripts read ../data and write ../data_derived, ../out, ../figures)
+*.pkl
+*.csv
+*.png
+*.pdf
+*.txt
+*.npz
+*.json
+*.log
+data/
+data_derived/
+out/
+figures/
+logs/
+perm_export/
+
+# Cluster job scripts (not tracked)
+*.sbatch
